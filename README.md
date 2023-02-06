@@ -1,18 +1,22 @@
 # finalCapstone
 
-Title - Inventory
-Content -
-Description
-Installation
-Instruction
-Credits
-Description
+- Title - 
+Inventory
+------------------------------------
+- Content -
+1) Description
+2) Installation
+3) Instruction
+4) Credits
+------------------------------------
+
+1) Description
 Python program that will read from the text file inventory.txt and perform certian functions on the data. This will help managers organise and keep an eye on the stock levels.
 
-Installation
+2) Installation
 This program does not require any installation. All you need is to copy paste the code to an IDE of your choice.
 
-Intruction
+3) Intruction
 ▪ read_shoes_data (choice 1) - This function will open the file inventory.txt and read the data from this file, then create a shoes object with this data and append this object into the shoes list. One line in this file represents data to create one object of shoes. You must use the try-except in this function for error handling. Remember to skip the first line using your code.
 
 ▪ capture_shoes (choice 2) - This function will allow a user to capture data about a shoe and use this data to create a shoe object and append this object inside the shoe list.
@@ -27,4 +31,4 @@ Intruction
 
 ▪ highest_qty (choice 7)- Write code to determine the product with the highest quantity and print this shoe as being for sale. ▪ (choice 8) - Exit
 
-Credits N/A
+4) Credits N/A

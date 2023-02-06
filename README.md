@@ -1,25 +1,30 @@
 # finalCapstone
 
-- Title - 
-Inventory 
+Title - Inventory
+Content -
+Description
+Installation
+Instruction
+Credits
+Description
+Python program that will read from the text file inventory.txt and perform certian functions on the data. This will help managers organise and keep an eye on the stock levels.
 
-- Description - 
-Code based on Python program that will read from the text file inventory.txt and 
-manipulates the data to retrieve the correct information and add new data to the database. This will
-allow managers to correctly manage their stocks and prepare for the future.
+Installation
+This program does not require any installation. All you need is to copy paste the code to an IDE of your choice.
 
-- Contents -
-1) Description 
-2) Installation 
-3) Usage
-4) Credits
+Intruction
+▪ read_shoes_data (choice 1) - This function will open the file inventory.txt and read the data from this file, then create a shoes object with this data and append this object into the shoes list. One line in this file represents data to create one object of shoes. You must use the try-except in this function for error handling. Remember to skip the first line using your code.
 
+▪ capture_shoes (choice 2) - This function will allow a user to capture data about a shoe and use this data to create a shoe object and append this object inside the shoe list.
 
-○ A table of contents to allow other people to quickly navigate
-especially long or detailed READMEs.
-○ An installation section that tells other users how to install your project
-locally.
-○ A usage section that instructs others on how to use your project after
-they’ve installed it. Include screenshots of your project in action.
-○ A section for credits that highlights and links to the authors of your
-project if the project has been created by more than one person.
+▪ view_all (choice 3)- This function will iterate over the shoes list and print the details of the shoes returned from the str function. Optional: you can organise your data in a table format by using Python’s tabulate module.
+
+▪ re_stock (choice 4)- This function will find the shoe object with the lowest quantity, which is the shoes that need to be re-stocked. Ask the user if they want to add this quantity of shoes and then update it. This quantity should be updated on the file for this shoe.
+
+▪ seach_shoe (choice 5)- This function will search for a shoe from the list using the shoe code and return this object so that it will be printed.
+
+▪ value_per_item (choice 6)- This function will calculate the total value for each item . Please keep the formula for value in mind; value = cost * quantity. Print this information on the console for all the shoes.
+
+▪ highest_qty (choice 7)- Write code to determine the product with the highest quantity and print this shoe as being for sale. ▪ (choice 8) - Exit
+
+Credits N/A
